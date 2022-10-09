@@ -1,0 +1,547 @@
+[
+    {
+        "data": "2022-11-20",
+        "jogos": [
+            {
+                "idJogo": 1,
+                "grupo": "A",
+                "horario": "13:00",
+                "timeMandante": "catar",
+                "placarMandante": null,
+                "timeVisitante": "equador",
+                "placarVisitante": null,
+                "estadio": "AL BAYT"
+            }
+        ]
+    },
+    {
+        "data": "2022-11-21",
+        "jogos": [
+            {
+                "idJogo": 2,
+                "grupo": "B",
+                "horario": "10:00",
+                "timeMandante": "inglaterra",
+                "placarMandante": null,
+                "timeVisitante": "ira",
+                "placarVisitante": null,
+                "estadio": "INTERNACIONAL KHALIFA"
+            },
+            {
+                "idJogo": 3,
+                "grupo": "A",
+                "horario": "13:00",
+                "timeMandante": "senegal",
+                "placarMandante": null,
+                "timeVisitante": "holanda",
+                "placarVisitante": null,
+                "estadio": "AL THUMAMA"
+            },
+            {
+                "idJogo": 4,
+                "grupo": "B",
+                "horario": "16:00",
+                "timeMandante": "estados-unidos",
+                "placarMandante": null,
+                "timeVisitante": "pais-de-gales",
+                "placarVisitante": null,
+                "estadio": "AHMAD BIN ALI"
+            }
+        ]
+    },
+    {
+        "data": "2022-11-22",
+        "jogos": [
+            {
+                "idJogo": 5,
+                "grupo": "C",
+                "horario": "07:00",
+                "timeMandante": "argentina",
+                "placarMandante": null,
+                "timeVisitante": "arabia-saudita",
+                "placarVisitante": null,
+                "estadio": "LUSAIL"
+            },
+            {
+                "idJogo": 6,
+                "grupo": "D",
+                "horario": "10:00",
+                "timeMandante": "dinamarca",
+                "placarMandante": null,
+                "timeVisitante": "tunisia",
+                "placarVisitante": null,
+                "estadio": "CIDADE DA EDUCAÇÃO"
+            },
+            {
+                "idJogo": 7,
+                "grupo": "C",
+                "horario": "13:00",
+                "timeMandante": "mexico",
+                "placarMandante": null,
+                "timeVisitante": "polonia",
+                "placarVisitante": null,
+                "estadio": "ESTÁDIO 974"
+            },
+            {
+                "idJogo": 8,
+                "grupo": "D",
+                "horario": "16:00",
+                "timeMandante": "franca",
+                "placarMandante": null,
+                "timeVisitante": "australia",
+                "placarVisitante": null,
+                "estadio": "AL JANOUB"
+            }
+        ]
+    },
+    {
+        "data": "2022-11-23",
+        "jogos": [
+            {
+                "idJogo": 9,
+                "grupo": "F",
+                "horario": "07:00",
+                "timeMandante": "marrocos",
+                "placarMandante": null,
+                "timeVisitante": "croacia",
+                "placarVisitante": null,
+                "estadio": "AL BAYT"
+            },
+            {
+                "idJogo": 10,
+                "grupo": "E",
+                "horario": "10:00",
+                "timeMandante": "alemanha",
+                "placarMandante": null,
+                "timeVisitante": "japao",
+                "placarVisitante": null,
+                "estadio": "INTERNACIONAL KHALIFA"
+            },
+            {
+                "idJogo": 11,
+                "grupo": "E",
+                "horario": "13:00",
+                "timeMandante": "espanha",
+                "placarMandante": null,
+                "timeVisitante": "costa-rica",
+                "placarVisitante": null,
+                "estadio": "AL THUMAMA"
+            },
+            {
+                "idJogo": 12,
+                "grupo": "F",
+                "horario": "16:00",
+                "timeMandante": "belgica",
+                "placarMandante": null,
+                "timeVisitante": "canada",
+                "placarVisitante": null,
+                "estadio": "AHMAD BIN ALI"
+            }
+        ]
+    },
+    {
+        "data": "2022-11-24",
+        "jogos": [
+            {
+                "idJogo": 13,
+                "grupo": "G",
+                "horario": "07:00",
+                "timeMandante": "suica",
+                "placarMandante": null,
+                "timeVisitante": "camaroes",
+                "placarVisitante": null,
+                "estadio": "AL JANOUB"
+            },
+            {
+                "idJogo": 14,
+                "grupo": "H",
+                "horario": "10:00",
+                "timeMandante": "uruguai",
+                "placarMandante": null,
+                "timeVisitante": "coreia-do-sul",
+                "placarVisitante": null,
+                "estadio": "CIDADE DA EDUCAÇÃO"
+            },
+            {
+                "idJogo": 15,
+                "grupo": "H",
+                "horario": "13:00",
+                "timeMandante": "portugal",
+                "placarMandante": null,
+                "timeVisitante": "gana",
+                "placarVisitante": null,
+                "estadio": "ESTÁDIO 974"
+            },
+            {
+                "idJogo": 16,
+                "grupo": "G",
+                "horario": "16:00",
+                "timeMandante": "brasil",
+                "placarMandante": null,
+                "timeVisitante": "servia",
+                "placarVisitante": null,
+                "estadio": "LUSAIL"
+            }
+        ]
+    },
+    {
+        "data": "2022-11-25",
+        "jogos": [
+            {
+                "idJogo": 17,
+                "grupo": "B",
+                "horario": "07:00",
+                "timeMandante": "pais-de-gales",
+                "placarMandante": null,
+                "timeVisitante": "ira",
+                "placarVisitante": null,
+                "estadio": "AHMAD BIN ALI"
+            },
+            {
+                "idJogo": 18,
+                "grupo": "A",
+                "horario": "10:00",
+                "timeMandante": "catar",
+                "placarMandante": null,
+                "timeVisitante": "senegal",
+                "placarVisitante": null,
+                "estadio": "AL THUMAMA"
+            },
+            {
+                "idJogo": 19,
+                "grupo": "A",
+                "horario": "13:00",
+                "timeMandante": "holanda",
+                "placarMandante": null,
+                "timeVisitante": "equador",
+                "placarVisitante": null,
+                "estadio": "INTERNACIONAL KHALIFA"
+            },
+            {
+                "idJogo": 20,
+                "grupo": "B",
+                "horario": "16:00",
+                "timeMandante": "inglaterra",
+                "placarMandante": null,
+                "timeVisitante": "estados-unidos",
+                "placarVisitante": null,
+                "estadio": "AL BAYT"
+            }
+        ]
+    },
+    {
+        "data": "2022-11-26",
+        "jogos": [
+            {
+                "idJogo": 21,
+                "grupo": "D",
+                "horario": "07:00",
+                "timeMandante": "tunisia",
+                "placarMandante": null,
+                "timeVisitante": "australia",
+                "placarVisitante": null,
+                "estadio": "AL JANOUB"
+            },
+            {
+                "idJogo": 22,
+                "grupo": "C",
+                "horario": "10:00",
+                "timeMandante": "polonia",
+                "placarMandante": null,
+                "timeVisitante": "arabia-saudita",
+                "placarVisitante": null,
+                "estadio": "CIDADE DA EDUCAÇÃO"
+            },
+            {
+                "idJogo": 23,
+                "grupo": "D",
+                "horario": "13:00",
+                "timeMandante": "franca",
+                "placarMandante": null,
+                "timeVisitante": "dinamarca",
+                "placarVisitante": null,
+                "estadio": "ESTÁDIO 974"
+            },
+            {
+                "idJogo": 24,
+                "grupo": "C",
+                "horario": "16:00",
+                "timeMandante": "argentina",
+                "placarMandante": null,
+                "timeVisitante": "mexico",
+                "placarVisitante": null,
+                "estadio": "LUSAIL"
+            }
+        ]
+    },
+    {
+        "data": "2022-11-27",
+        "jogos": [
+            {
+                "idJogo": 25,
+                "grupo": "E",
+                "horario": "07:00",
+                "timeMandante": "japao",
+                "placarMandante": null,
+                "timeVisitante": "costa-rica",
+                "placarVisitante": null,
+                "estadio": "AHMAD BIN ALI"
+            },
+            {
+                "idJogo": 26,
+                "grupo": "F",
+                "horario": "10:00",
+                "timeMandante": "belgica",
+                "placarMandante": null,
+                "timeVisitante": "marrocos",
+                "placarVisitante": null,
+                "estadio": "AL THUMAMA"
+            },
+            {
+                "idJogo": 27,
+                "grupo": "F",
+                "horario": "13:00",
+                "timeMandante": "croacia",
+                "placarMandante": null,
+                "timeVisitante": "canada",
+                "placarVisitante": null,
+                "estadio": "INTERNACIONAL KHALIFA"
+            },
+            {
+                "idJogo": 28,
+                "grupo": "E",
+                "horario": "16:00",
+                "timeMandante": "espanha",
+                "placarMandante": null,
+                "timeVisitante": "alemanha",
+                "placarVisitante": null,
+                "estadio": "AL BAYT"
+            }
+        ]
+    },
+    {
+        "data": "2022-11-28",
+        "jogos": [
+            {
+                "idJogo": 29,
+                "grupo": "G",
+                "horario": "07:00",
+                "timeMandante": "camaroes",
+                "placarMandante": null,
+                "timeVisitante": "servia",
+                "placarVisitante": null,
+                "estadio": "AL JANOUB"
+            },
+            {
+                "idJogo": 30,
+                "grupo": "H",
+                "horario": "10:00",
+                "timeMandante": "coreia-do-sul",
+                "placarMandante": null,
+                "timeVisitante": "gana",
+                "placarVisitante": null,
+                "estadio": "CIDADE DA EDUCAÇÃO"
+            },
+            {
+                "idJogo": 31,
+                "grupo": "G",
+                "horario": "13:00",
+                "timeMandante": "brasil",
+                "placarMandante": null,
+                "timeVisitante": "suica",
+                "placarVisitante": null,
+                "estadio": "ESTÁDIO 974"
+            },
+            {
+                "idJogo": 32,
+                "grupo": "E",
+                "horario": "16:00",
+                "timeMandante": "portugal",
+                "placarMandante": null,
+                "timeVisitante": "uruguai",
+                "placarVisitante": null,
+                "estadio": "LUSAIL"
+            }
+        ]
+    },
+    {
+        "data": "2022-11-29",
+        "jogos": [
+            {
+                "idJogo": 33,
+                "grupo": "A",
+                "horario": "12:00",
+                "timeMandante": "holanda",
+                "placarMandante": null,
+                "timeVisitante": "catar",
+                "placarVisitante": null,
+                "estadio": "AL BAYT"
+            },
+            {
+                "idJogo": 34,
+                "grupo": "A",
+                "horario": "12:00",
+                "timeMandante": "equador",
+                "placarMandante": null,
+                "timeVisitante": "senegal",
+                "placarVisitante": null,
+                "estadio": "INTERNACIONAL KHALIFA"
+            },
+            {
+                "idJogo": 35,
+                "grupo": "B",
+                "horario": "16:00",
+                "timeMandante": "ira",
+                "placarMandante": null,
+                "timeVisitante": "estados-unidos",
+                "placarVisitante": null,
+                "estadio": "AL THUMAMA"
+            },
+            {
+                "idJogo": 36,
+                "grupo": "B",
+                "horario": "16:00",
+                "timeMandante": "pais-de-gales",
+                "placarMandante": null,
+                "timeVisitante": "inglaterra",
+                "placarVisitante": null,
+                "estadio": "AHMAD BIN ALI"
+            }
+        ]
+    },
+    {
+        "data": "2022-11-30",
+        "jogos": [
+            {
+                "idJogo": 37,
+                "grupo": "D",
+                "horario": "12:00",
+                "timeMandante": "tunisia",
+                "placarMandante": null,
+                "timeVisitante": "franca",
+                "placarVisitante": null,
+                "estadio": "CIDADE DA EDUCAÇÃO"
+            },
+            {
+                "idJogo": 38,
+                "grupo": "D",
+                "horario": "12:00",
+                "timeMandante": "australia",
+                "placarMandante": null,
+                "timeVisitante": "dinamarca",
+                "placarVisitante": null,
+                "estadio": "AL JANOUB"
+            },
+            {
+                "idJogo": 39,
+                "grupo": "C",
+                "horario": "16:00",
+                "timeMandante": "polonia",
+                "placarMandante": null,
+                "timeVisitante": "argentina",
+                "placarVisitante": null,
+                "estadio": "ESTÁDIO 974"
+            },
+            {
+                "idJogo": 40,
+                "grupo": "C",
+                "horario": "16:00",
+                "timeMandante": "arabia-saudita",
+                "placarMandante": null,
+                "timeVisitante": "mexico",
+                "placarVisitante": null,
+                "estadio": "LUSAIL"
+            }
+        ]
+    },
+    {
+        "data": "2022-12-01",
+        "jogos": [
+            {
+                "idJogo": 41,
+                "grupo": "F",
+                "horario": "12:00",
+                "timeMandante": "croacia",
+                "placarMandante": null,
+                "timeVisitante": "belgica",
+                "placarVisitante": null,
+                "estadio": "AHMAD BIN ALI"
+            },
+            {
+                "idJogo": 42,
+                "grupo": "F",
+                "horario": "12:00",
+                "timeMandante": "canada",
+                "placarMandante": null,
+                "timeVisitante": "suica",
+                "placarVisitante": null,
+                "estadio": "AL THUMAMA"
+            },
+            {
+                "idJogo": 43,
+                "grupo": "E",
+                "horario": "16:00",
+                "timeMandante": "japao",
+                "placarMandante": null,
+                "timeVisitante": "espanha",
+                "placarVisitante": null,
+                "estadio": "INTERNACIONAL KHALIFA"
+            },
+            {
+                "idJogo": 44,
+                "grupo": "E",
+                "horario": "16:00",
+                "timeMandante": "costa-rica",
+                "placarMandante": null,
+                "timeVisitante": "alemanha",
+                "placarVisitante": null,
+                "estadio": "AL BAYT"
+            }
+        ]
+    },
+    {
+        "data": "2022-12-02",
+        "jogos": [
+            {
+                "idJogo": 45,
+                "grupo": "H",
+                "horario": "12:00",
+                "timeMandante": "coreia-do-sul",
+                "placarMandante": null,
+                "timeVisitante": "portugal",
+                "placarVisitante": null,
+                "estadio": "CIDADE DA EDUCAÇÃO"
+            },
+            {
+                "idJogo": 46,
+                "grupo": "H",
+                "horario": "12:00",
+                "timeMandante": "gana",
+                "placarMandante": null,
+                "timeVisitante": "uruguai",
+                "placarVisitante": null,
+                "estadio": "AL JANOUB"
+            },
+            {
+                "idJogo": 47,
+                "grupo": "G",
+                "horario": "16:00",
+                "timeMandante": "camaroes",
+                "placarMandante": null,
+                "timeVisitante": "brasil",
+                "placarVisitante": null,
+                "estadio": "LUSAIL"
+            },
+            {
+                "idJogo": 48,
+                "grupo": "G",
+                "horario": "16:00",
+                "timeMandante": "servia",
+                "placarMandante": null,
+                "timeVisitante": "suica",
+                "placarVisitante": null,
+                "estadio": "ESTÁDIO 974"
+            }
+        ]
+    }
+]
