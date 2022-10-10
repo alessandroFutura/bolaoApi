@@ -62,55 +62,57 @@
                     $palpite->placarVisitante == $resultado->placarVisitante
                 ){
                     $ret->acertos ++;
-                    $palpite->qtPontuacao = $pontuacao[0]->qtPontuacao;
-                    $palpite->dsPontuacao = $pontuacao[0]->dsPontuacao;
+                    $keyPontuacao = 0;
                 }
                 // ACERTO DO ESCORE DO TIME VENCEDOR
                 else if(
                     (
-                        $palpite->placarMandante > $resultado->placarVisitante &&
+                        $resultado->placarMandante > $resultado->placarVisitante &&
+                        $palpite->placarMandante > $palpite->placarVisitante &&
                         $palpite->placarMandante == $resultado->placarMandante
                     )
                     ||
                     (
-                        $palpite->placarVisitante > $resultado->placarMandante &&
+                        $resultado->placarVisitante > $resultado->placarMandante &&
+                        $palpite->placarVisitante > $palpite->placarVisitante &&
                         $palpite->placarVisitante == $resultado->placarVisitante
                     )
                 ){
-                    $palpite->qtPontuacao = $pontuacao[1]->qtPontuacao;
-                    $palpite->dsPontuacao = $pontuacao[1]->dsPontuacao;
-                }
-                // ACERTO DA DIFERENÇA DE GOLS ENTRE O VENCEDOR E O PERDEDOR
-                else if(
-                    abs($palpite->placarMandante - $palpite->placarVisitante)
-                    ==
-                    abs($resultado->placarMandante - $resultado->placarVisitante)
-                ){
-                    $palpite->qtPontuacao = $pontuacao[2]->qtPontuacao;
-                    $palpite->dsPontuacao = $pontuacao[2]->dsPontuacao;
+                    $keyPontuacao = 1;
                 }
                 // ACERTO DO EMPATE NÃO EXATO
                 else if(
                     $palpite->placarMandante == $palpite->placarVisitante &&
                     $resultado->placarMandante == $resultado->placarVisitante
                 ){
-                    $palpite->qtPontuacao = $pontuacao[3]->qtPontuacao;
-                    $palpite->dsPontuacao = $pontuacao[3]->dsPontuacao;
+                    $keyPontuacao = 2;
                 }
                 // ACERTO DO ESCORE DO TIME PERDEDOR
                 else if(
                     (
                         $resultado->placarMandante > $resultado->placarVisitante &&
-                        $palpite->placarVisitante == $resultado->placarVisitante
+                        $palpite->placarVisitante == $resultado->placarVisitante &&
+                        $palpite->placarMandante != $palpite->placarVisitante
                     )
                     ||
                     (
                         $resultado->placarVisitante > $resultado->placarMandante &&
-                        $palpite->placarMandante == $resultado->placarMandante
+                        $palpite->placarMandante == $resultado->placarMandante &&
+                        $palpite->placarMandante != $palpite->placarVisitante
                     )
                 ){
-                    $palpite->qtPontuacao = $pontuacao[4]->qtPontuacao;
-                    $palpite->dsPontuacao = $pontuacao[4]->dsPontuacao;
+                    $keyPontuacao = 3;
+                }
+                // ACERTO DA DIFERENÇA DE GOLS ENTRE O VENCEDOR E O PERDEDOR
+                else if(
+                    $resultado->placarVisitante != $resultado->placarMandante &&
+                    (
+                        $palpite->placarMandante - $palpite->placarVisitante
+                        ==
+                        $resultado->placarMandante - $resultado->placarVisitante
+                    )
+                ){
+                    $keyPontuacao = 4;
                 }
                 // ACERTO APENAS DO TIME VENCEDOR
                 else if(
@@ -124,13 +126,16 @@
                         $palpite->placarVisitante > $palpite->placarMandante
                     )
                 ){
-                    $palpite->qtPontuacao = $pontuacao[5]->qtPontuacao;
-                    $palpite->dsPontuacao = $pontuacao[5]->dsPontuacao;
+                    $keyPontuacao = 5;
                 }
                 else {
-                    $palpite->qtPontuacao = $pontuacao[6]->qtPontuacao;
-                    $palpite->dsPontuacao = $pontuacao[6]->dsPontuacao;
+                    $keyPontuacao = 6;
                 }
+
+                $palpite->idPontuacao = $pontuacao[$keyPontuacao]->idPontuacao;
+                $palpite->qtPontuacao = $pontuacao[$keyPontuacao]->qtPontuacao;
+                $palpite->dsPontuacao = $pontuacao[$keyPontuacao]->dsPontuacao;
+                $palpite->corPontuacao = $pontuacao[$keyPontuacao]->corPontuacao;
                 $ret->pontos += $palpite->qtPontuacao;
             }
         }

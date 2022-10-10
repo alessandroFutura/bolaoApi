@@ -2,7 +2,7 @@
 
     Class Calendario
     {
-        public static function getList()
+        public static function get()
         {
             GLOBAL $resultados;
 

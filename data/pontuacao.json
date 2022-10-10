@@ -2,36 +2,43 @@
     {
         "idPontuacao": 1,
         "qtPontuacao": 10,
+        "corPontuacao": "#4caf50",
         "dsPontuacao": "Acerto do placar exato"
     },
     {
         "idPontuacao": 2,
         "qtPontuacao": 6,
+        "corPontuacao": "#673ab7",
         "dsPontuacao": "Acerto do escore do time vencedor"
     },
     {
         "idPontuacao": 3,
         "qtPontuacao": 5,
-        "dsPontuacao": "Acerto da diferença de gols entre o vencedor e o perdedor"
+        "corPontuacao": "#3f51b5",
+        "dsPontuacao": "Acerto do empate não exato"
     },
     {
         "idPontuacao": 4,
         "qtPontuacao": 4,
-        "dsPontuacao": "Acerto do empate não exato"
+        "corPontuacao": "#2196f3",
+        "dsPontuacao": "Acerto do escore do time perdedor"
     },
     {
         "idPontuacao": 5,
         "qtPontuacao": 3,
-        "dsPontuacao": "Acerto do escore do time perdedor"
+        "corPontuacao": "#ff9800",
+        "dsPontuacao": "Acerto da diferença de gols entre o vencedor e o perdedor"
     },
     {
         "idPontuacao": 6,
         "qtPontuacao": 1,
+        "corPontuacao": "#ffc107",
         "dsPontuacao": "Acerto apenas do time vencedor"
     },
     {
         "idPontuacao": 7,
         "qtPontuacao": 0,
+        "corPontuacao": "#f44336",
         "dsPontuacao": "Nenhuma pontuação"
     }
 ]

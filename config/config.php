@@ -1,6 +1,6 @@
 <?php
 
-    define("PATH_ROOT", "C:/wamp/www/bolaocopa2022/");
+    define("PATH_ROOT", "C:/wamp/www/bolaoApi/");
     define("PATH_DATA", PATH_ROOT . "data/");
     define("PATH_CLASS", PATH_ROOT . "class/");
     define("PATH_MODEL", PATH_ROOT . "model/");
