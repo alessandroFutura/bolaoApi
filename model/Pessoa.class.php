@@ -73,7 +73,9 @@
             }
 
             usort($pessoas, function($a, $b){
-                return $a->pontos < $b->pontos;
+                return $a->pontos == $b->pontos ? (
+                    $a->acertos < $b->acertos
+                ) : $a->pontos < $b->pontos;
             });
 
             return $pessoas;
