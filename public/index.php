@@ -6,6 +6,12 @@
 
     switch($_GET["action"]){
 
+        case "getJogo":
+
+            Json::get(Jogo::get($_GET["idJogo"]));
+
+        break;
+
         case "getPessoa":
 
             Json::get(Pessoa::get($_GET["idPessoa"]));

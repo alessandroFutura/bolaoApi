@@ -34,7 +34,7 @@
         return $ret;
     }
 
-    function result($chaveAcesso)
+    function result($chaveAcesso, $idJogo=NULL)
     {
         GLOBAL $resultados;
 
@@ -45,6 +45,14 @@
             "acertos" => 0,
             "palpites" => json_decode(file_get_contents(PATH_DATA. "palpites/{$chaveAcesso}.json"))
         ];
+
+        if(@$idJogo){
+            foreach($ret->palpites as $palpite){
+                if($palpite->idJogo == $idJogo){
+                    $ret->palpites = [$palpite];
+                }
+            }
+        }
 
         foreach($ret->palpites as $palpite){
 
