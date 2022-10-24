@@ -2,7 +2,7 @@
 
     Class Pessoa
     {
-        public static function get($idPessoa)
+        public static function get($idPessoa, $chaveAcesso)
         {
             $pessoas = json_decode(file_get_contents(PATH_DATA. "pessoas.json"));
 
@@ -23,12 +23,17 @@
                     $ret->pontos = $data->pontos;
                     $ret->acertos = $data->acertos;
 
+                    $ret->editavel = $pessoa->chaveAcesso == $chaveAcesso && date("Ymd") < DATA_INICIO_COPA;
+                    $ret->visivel = $pessoa->chaveAcesso == $chaveAcesso || date("Ymd") >= DATA_INICIO_COPA;
+
                     $palpites = [];
                     foreach($data->palpites as $palpite){
                         $palpites[$palpite->idJogo] = $palpite;
                     }
 
                     $ret->jogos = [];
+                    $habilitado = date("Ymd") >= DATA_INICIO_COPA;
+
                     foreach($calendario as $dia){
                         foreach($dia->jogos as $jogo){
                             $ret->jogos[] = (Object)[
@@ -47,7 +52,8 @@
                                 "qtPontuacao" => $palpites[$jogo->idJogo]->qtPontuacao,
                                 "corPontuacao" => $palpites[$jogo->idJogo]->corPontuacao,
                                 "palpitePlacarMandante" => $palpites[$jogo->idJogo]->placarMandante,
-                                "palpitePlacarVisitante" => $palpites[$jogo->idJogo]->placarVisitante
+                                "palpitePlacarVisitante" => $palpites[$jogo->idJogo]->placarVisitante,
+                                "habilitado" => $habilitado
                             ];
                         }
                     }
@@ -57,7 +63,7 @@
             return $ret;
         }
 
-        public static function getList()
+        public static function getList($chaveAcesso)
         {
             $pessoas = json_decode(file_get_contents(PATH_DATA. "pessoas.json"));
 
@@ -69,6 +75,7 @@
                 $data = result($pessoa->chaveAcesso);
                 $pessoa->pontos = $data->pontos;
                 $pessoa->acertos = $data->acertos;
+                $pessoa->habilitado = $pessoa->chaveAcesso == $chaveAcesso || date("Ymd") >= DATA_INICIO_COPA;
                 unset($pessoa->chaveAcesso);
             }
 

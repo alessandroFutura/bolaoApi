@@ -21,11 +21,12 @@
       <file leaf-file-name="func.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/func.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            <state relative-caret-position="102">
+              <caret line="36" column="47" lean-forward="false" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
               <folding>
                 <element signature="n#loadClass#0;n#!!top" expanded="false" />
                 <element signature="n#getImage#0;n#!!top" expanded="false" />
+                <element signature="n#result#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -41,14 +42,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pessoa.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Pessoa.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/Pessoa.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="78" column="15" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="78" selection-end-column="15" />
-              <folding>
-                <element signature="n#get#0;n#Pessoa#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,18 +55,18 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="272">
+              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Jogo.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Jogo.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/Jogo.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="36" column="63" lean-forward="false" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+            <state relative-caret-position="867">
+              <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -76,8 +75,8 @@
       <file leaf-file-name="pessoas.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/pessoas.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="68">
+              <caret line="4" column="56" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -86,8 +85,18 @@
       <file leaf-file-name="Calendario.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/Calendario.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="13" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -146,7 +155,6 @@
         <option value="$PROJECT_DIR$/data/start.php" />
         <option value="$PROJECT_DIR$/class/Json.class.php" />
         <option value="$PROJECT_DIR$/model/People.class.php" />
-        <option value="$PROJECT_DIR$/config/config.php" />
         <option value="$PROJECT_DIR$/data/matchs.json" />
         <option value="$PROJECT_DIR$/model/Match.class.php" />
         <option value="$PROJECT_DIR$/data/calendar.json" />
@@ -179,13 +187,14 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/start.php" />
         <option value="$PROJECT_DIR$/public/api/index.php" />
-        <option value="$PROJECT_DIR$/model/Calendario.class.php" />
         <option value="$PROJECT_DIR$/data/pontuacao.json" />
-        <option value="$PROJECT_DIR$/model/Pessoa.class.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/data/pessoas.json" />
-        <option value="$PROJECT_DIR$/config/func.php" />
         <option value="$PROJECT_DIR$/model/Jogo.class.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/config/func.php" />
+        <option value="$PROJECT_DIR$/model/Calendario.class.php" />
+        <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/model/Pessoa.class.php" />
       </list>
     </option>
   </component>
@@ -270,6 +279,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bolaoApi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bolaoApi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,15 +401,18 @@
       <workItem from="1665434319144" duration="303000" />
       <workItem from="1665440238140" duration="683000" />
       <workItem from="1665960271173" duration="5172000" />
+      <workItem from="1666003205550" duration="264000" />
+      <workItem from="1666133596371" duration="1468000" />
+      <workItem from="1666478944755" duration="5917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49774000" />
+    <option name="totallyTimeSpent" value="57423000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="736" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="736" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29648608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -422,9 +448,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#get#0;n#Pessoa#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -458,6 +482,7 @@
           <folding>
             <element signature="n#loadClass#0;n#!!top" expanded="false" />
             <element signature="n#getImage#0;n#!!top" expanded="false" />
+            <element signature="n#result#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -480,9 +505,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#get#0;n#Pessoa#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -516,6 +539,7 @@
           <folding>
             <element signature="n#loadClass#0;n#!!top" expanded="false" />
             <element signature="n#getImage#0;n#!!top" expanded="false" />
+            <element signature="n#result#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -538,9 +562,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#get#0;n#Pessoa#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -555,13 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -710,14 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/Calendario.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/calendario.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -739,47 +746,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/Jogo.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/pessoas.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="68">
+          <caret line="4" column="56" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/func.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        <state relative-caret-position="102">
+          <caret line="36" column="47" lean-forward="false" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
           <folding>
             <element signature="n#loadClass#0;n#!!top" expanded="false" />
             <element signature="n#getImage#0;n#!!top" expanded="false" />
+            <element signature="n#result#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/model/Calendario.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="45" />
+        <state relative-caret-position="374">
+          <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/Pessoa.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="78" column="15" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="78" selection-end-column="15" />
-          <folding>
-            <element signature="n#get#0;n#Pessoa#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/Jogo.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="36" column="63" lean-forward="false" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+        <state relative-caret-position="221">
+          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="34" />
           <folding />
         </state>
       </provider>

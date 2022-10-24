@@ -14,15 +14,18 @@
 
         case "getPessoa":
 
-            Json::get(Pessoa::get($_GET["idPessoa"]));
+            Json::get(Pessoa::get(
+                $_GET["idPessoa"],
+                @$_GET["chaveAcesso"] ? @$_GET["chaveAcesso"] : NULL
+            ));
 
         break;
 
         case "getPessoas":
 
-            Json::get(Pessoa::getList());
+            Json::get(Pessoa::getList(@$_GET["chaveAcesso"] ? @$_GET["chaveAcesso"] : NULL));
 
-            break;
+        break;
 
         case "getCalendario":
 

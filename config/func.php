@@ -57,6 +57,7 @@
         foreach($ret->palpites as $palpite){
 
             $resultado = $resultados[$palpite->idJogo];
+            $keyPontuacao = 6;
 
             if(
                 !is_null($palpite->placarVisitante) &&
@@ -136,16 +137,13 @@
                 ){
                     $keyPontuacao = 5;
                 }
-                else {
-                    $keyPontuacao = 6;
-                }
-
-                $palpite->idPontuacao = $pontuacao[$keyPontuacao]->idPontuacao;
-                $palpite->qtPontuacao = $pontuacao[$keyPontuacao]->qtPontuacao;
-                $palpite->dsPontuacao = $pontuacao[$keyPontuacao]->dsPontuacao;
-                $palpite->corPontuacao = $pontuacao[$keyPontuacao]->corPontuacao;
-                $ret->pontos += $palpite->qtPontuacao;
             }
+
+            $palpite->idPontuacao = $pontuacao[$keyPontuacao]->idPontuacao;
+            $palpite->qtPontuacao = $pontuacao[$keyPontuacao]->qtPontuacao;
+            $palpite->dsPontuacao = $pontuacao[$keyPontuacao]->dsPontuacao;
+            $palpite->corPontuacao = $pontuacao[$keyPontuacao]->corPontuacao;
+            $ret->pontos += $palpite->qtPontuacao;
         }
 
         return $ret;

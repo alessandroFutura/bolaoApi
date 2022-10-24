@@ -20,6 +20,7 @@
                     ]);
                     $jogo->placarMandante = $resultados[$jogo->idJogo]->placarMandante;
                     $jogo->placarVisitante = $resultados[$jogo->idJogo]->placarVisitante;
+                    $jogo->habilitado = date("Ymd") >= DATA_INICIO_COPA;
                 }
             }
 
