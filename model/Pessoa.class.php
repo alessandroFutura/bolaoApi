@@ -2,8 +2,10 @@
 
     Class Pessoa
     {
-        public static function get($idPessoa, $chaveAcesso)
+        public static function get($idPessoa, $token)
         {
+            GLOBAL $cupDate;
+
             $pessoas = json_decode(file_get_contents(PATH_DATA. "pessoas.json"));
 
             $ret = NULL;
@@ -17,14 +19,14 @@
                     ]);
                     $ret->nmPessoa = $pessoa->nmPessoa;
 
-                    $data = result($pessoa->chaveAcesso);
+                    $data = result($pessoa->token);
                     $calendario = Calendario::get();
 
                     $ret->pontos = $data->pontos;
                     $ret->acertos = $data->acertos;
 
-                    $ret->editavel = $pessoa->chaveAcesso == $chaveAcesso && date("Ymd") < DATA_INICIO_COPA;
-                    $ret->visivel = $pessoa->chaveAcesso == $chaveAcesso || date("Ymd") >= DATA_INICIO_COPA;
+                    $ret->editavel = $pessoa->token == $token && (int)date("Ymd") < (int)$cupDate->format("Ymd");
+                    $ret->visivel = $pessoa->token == $token || (int)date("Ymd") >= (int)$cupDate->format("Ymd");
 
                     $palpites = [];
                     foreach($data->palpites as $palpite){
@@ -32,7 +34,7 @@
                     }
 
                     $ret->jogos = [];
-                    $habilitado = date("Ymd") >= DATA_INICIO_COPA;
+                    $visivel = (int)date("Ymd") >= (int)$cupDate->format("Ymd");
 
                     foreach($calendario as $dia){
                         foreach($dia->jogos as $jogo){
@@ -53,7 +55,7 @@
                                 "corPontuacao" => $palpites[$jogo->idJogo]->corPontuacao,
                                 "palpitePlacarMandante" => $palpites[$jogo->idJogo]->placarMandante,
                                 "palpitePlacarVisitante" => $palpites[$jogo->idJogo]->placarVisitante,
-                                "habilitado" => $habilitado
+                                "visivel" => $visivel
                             ];
                         }
                     }
@@ -63,8 +65,10 @@
             return $ret;
         }
 
-        public static function getList($chaveAcesso)
+        public static function getList($token)
         {
+            GLOBAL $cupDate;
+
             $pessoas = json_decode(file_get_contents(PATH_DATA. "pessoas.json"));
 
             foreach($pessoas as $pessoa){
@@ -72,11 +76,11 @@
                     "image_id" => $pessoa->idPessoa,
                     "image_dir" => "people"
                 ]);
-                $data = result($pessoa->chaveAcesso);
+                $data = result($pessoa->token);
                 $pessoa->pontos = $data->pontos;
                 $pessoa->acertos = $data->acertos;
-                $pessoa->habilitado = $pessoa->chaveAcesso == $chaveAcesso || date("Ymd") >= DATA_INICIO_COPA;
-                unset($pessoa->chaveAcesso);
+                $pessoa->habilitado = $pessoa->token == $token || (int)date("Ymd") >= (int)$cupDate->format("Ymd");
+                unset($pessoa->token);
             }
 
             usort($pessoas, function($a, $b){

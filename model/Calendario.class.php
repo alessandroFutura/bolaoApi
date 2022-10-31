@@ -4,7 +4,7 @@
     {
         public static function get()
         {
-            GLOBAL $resultados;
+            GLOBAL $cupDate, $resultados;
 
             $calendario = json_decode(file_get_contents(PATH_DATA. "calendario.json"));
 
@@ -20,7 +20,7 @@
                     ]);
                     $jogo->placarMandante = $resultados[$jogo->idJogo]->placarMandante;
                     $jogo->placarVisitante = $resultados[$jogo->idJogo]->placarVisitante;
-                    $jogo->habilitado = date("Ymd") >= DATA_INICIO_COPA;
+                    $jogo->habilitado = (int)date("Ymd") >= (int)$cupDate->format("Ymd");
                 }
             }
 

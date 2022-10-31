@@ -28,7 +28,7 @@
 
                         $ret->pessoas = [];
                         foreach($pessoas as $pessoa){
-                            $data = result($pessoa->chaveAcesso, $idJogo);
+                            $data = result($pessoa->token, $idJogo);
                             $ret->pessoas[] = (Object)[
                                 "imagem" => getImage((Object)[
                                     "image_id" => $pessoa->idPessoa,

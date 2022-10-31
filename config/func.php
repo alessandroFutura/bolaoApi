@@ -34,7 +34,7 @@
         return $ret;
     }
 
-    function result($chaveAcesso, $idJogo=NULL)
+    function result($token, $idJogo=NULL)
     {
         GLOBAL $resultados;
 
@@ -43,7 +43,7 @@
         $ret = (Object)[
             "pontos" => 0,
             "acertos" => 0,
-            "palpites" => json_decode(file_get_contents(PATH_DATA. "palpites/{$chaveAcesso}.json"))
+            "palpites" => json_decode(file_get_contents(PATH_DATA. "palpites/{$token}.json"))
         ];
 
         if(@$idJogo){

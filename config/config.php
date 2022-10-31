@@ -10,6 +10,7 @@
     define("URI_PUBLIC", "http://" . URI . "/bolaocopa2022/");
     define("URI_FILES", "http://" . URI . "/bolaocopa2022/files/");
 
-    define("DATA_INICIO_COPA", 20221120);
+    //define("DATA_INICIO_COPA", "2022-11-20 13:00");
+    define("DATA_INICIO_COPA", "2022-10-30 13:00");
 
 ?>

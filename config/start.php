@@ -9,5 +9,6 @@
     loadClass();
 
     $resultados = Resultado::getList();
+    $cupDate = new DateTime(DATA_INICIO_COPA);
 
 ?>
